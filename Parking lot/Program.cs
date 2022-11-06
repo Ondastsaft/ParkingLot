@@ -1,8 +1,17 @@
-﻿namespace Parking_lot;
-internal class Program
+﻿using ParkingLot.ParkingLot;
+using ParkingLot.ParkingLot.ParkingLotObjects.FixedObjects;
+using System;
+using System.Collections.Generic;
+using ParkingLot.ParkingLot.ParkingLotObjects; 
+
+namespace ParkingLot;
+   
 {
-    static void Main(string[] args)
+    internal class Program
     {
-        ParkingLot MyParkingLot = new ParkingLot();
+        static void Main(string[] args)
+        {
+        ParkingLotSim myParkingLot = new ParkingLotSim();
+ 
     }
 }

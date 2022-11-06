@@ -1,4 +1,4 @@
-﻿namespace Parking_lot.ParkingLot.ParkingLotObjects.FixedObjects
+﻿namespace ParkingLot.ParkingLot.ParkingLotObjects.FixedObjects
 
 {
     internal class ParkingSpace
