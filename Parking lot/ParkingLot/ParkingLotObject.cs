@@ -2,10 +2,17 @@
 {
     internal class ParkingLotObject
     {
-        internal int Name { get; set; }
-        internal int PositionX { get; set; }
-        internal int PositionY { get; set; }
-        internal int Width { get; set; }
-        internal int Length { get; set; }
+        internal string Name { get; set; }
+        internal int FromTop { get; set; }
+        internal int FromLeft { get; set; }
+        internal int Width;
+        internal int Height;
+        public ParkingLotObject(string name, int fromTop, int fromLeft)
+        {
+            Name = name;
+            FromTop = fromTop;
+            FromLeft = fromLeft;
+           
+        }                
     }
 }
