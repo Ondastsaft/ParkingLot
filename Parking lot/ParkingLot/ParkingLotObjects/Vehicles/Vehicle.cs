@@ -1,4 +1,4 @@
-﻿namespace Parking_lot.ParkingLot.ParkingLotObjects
+﻿namespace Parking_lot.ParkingLot.Vehicles
 {
     internal class Vehicle
     {

@@ -1,10 +1,8 @@
-﻿namespace Parking_lot
+﻿namespace Parking_lot;
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        ParkingLot MyParkingLot = new ParkingLot();
     }
 }
